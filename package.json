@@ -15,7 +15,8 @@
     "test": "base test"
   },
   "dependencies": {
-    "@babel/core": "^7.7.7"
+    "@babel/core": "^7.7.7",
+    "fs-extra": "^8.1.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-pipeline-operator": "^7.7.7",
