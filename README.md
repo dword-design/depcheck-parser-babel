@@ -5,7 +5,6 @@
 <!-- BADGES/ -->
 [![NPM version](https://img.shields.io/npm/v/depcheck-babel-parser.svg)](https://npmjs.org/package/depcheck-babel-parser)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
-
 [![Build status](https://img.shields.io/github/workflow/status/dword-design/depcheck-babel-parser/build)](https://github.com/dword-design/depcheck-babel-parser/actions)
 [![Coverage status](https://img.shields.io/coveralls/dword-design/depcheck-babel-parser)](https://coveralls.io/github/dword-design/depcheck-babel-parser)
 [![Dependency status](https://img.shields.io/david/dword-design/depcheck-babel-parser)](https://david-dm.org/dword-design/depcheck-babel-parser)
@@ -15,11 +14,11 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+A depcheck babel parser that uses an existing babel config instead of a fixed set of plugins.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
-# Install
+## Install
 
 ```bash
 # NPM
@@ -57,7 +56,7 @@ depcheck('/path/to/your/project', options, (unused) => {
 ```
 
 <!-- LICENSE/ -->
-# License
+## License
 
 Unless stated otherwise all works are:
 
