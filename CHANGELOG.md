@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/dword-design/depcheck-babel-parser/compare/v1.0.5...v1.1.0) (2020-06-09)
+
+
+### Bug Fixes
+
+* build files ([a177f40](https://github.com/dword-design/depcheck-babel-parser/commit/a177f4069cc8e1b1dd3846ea707d614f3100894b))
+
+
+### Features
+
+* rename to depcheck-babel-parser ([b001125](https://github.com/dword-design/depcheck-babel-parser/commit/b00112524cb7f96e17542fec1a0e0b21dde271b1))
+
 ## [1.0.5](https://github.com/dword-design/get-depcheck-babel-parser/compare/v1.0.4...v1.0.5) (2020-03-19)
 
 

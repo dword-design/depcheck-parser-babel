@@ -1,6 +1,6 @@
 {
   "name": "depcheck-babel-parser",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A depcheck babel parser that uses an existing babel config instead of a fixed set of plugins.",
   "repository": "dword-design/depcheck-babel-parser",
   "license": "MIT",
