@@ -1,16 +1,16 @@
 <!-- TITLE/ -->
-# depcheck-babel-parser
+# depcheck-parser-babel
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-[![NPM version](https://img.shields.io/npm/v/depcheck-babel-parser.svg)](https://npmjs.org/package/depcheck-babel-parser)
+[![NPM version](https://img.shields.io/npm/v/depcheck-parser-babel.svg)](https://npmjs.org/package/depcheck-parser-babel)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
-[![Build status](https://img.shields.io/github/workflow/status/dword-design/depcheck-babel-parser/build)](https://github.com/dword-design/depcheck-babel-parser/actions)
-[![Coverage status](https://img.shields.io/coveralls/dword-design/depcheck-babel-parser)](https://coveralls.io/github/dword-design/depcheck-babel-parser)
-[![Dependency status](https://img.shields.io/david/dword-design/depcheck-babel-parser)](https://david-dm.org/dword-design/depcheck-babel-parser)
+[![Build status](https://img.shields.io/github/workflow/status/dword-design/depcheck-parser-babel/build)](https://github.com/dword-design/depcheck-parser-babel/actions)
+[![Coverage status](https://img.shields.io/coveralls/dword-design/depcheck-parser-babel)](https://coveralls.io/github/dword-design/depcheck-parser-babel)
+[![Dependency status](https://img.shields.io/david/dword-design/depcheck-parser-babel)](https://david-dm.org/dword-design/depcheck-parser-babel)
 ![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dword-design/depcheck-babel-parser)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dword-design/depcheck-parser-babel)
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
@@ -22,10 +22,10 @@ A depcheck babel parser that uses an existing babel config instead of a fixed se
 
 ```bash
 # NPM
-$ npm install depcheck-babel-parser
+$ npm install depcheck-parser-babel
 
 # Yarn
-$ yarn add depcheck-babel-parser
+$ yarn add depcheck-parser-babel
 ```
 <!-- /INSTALL -->
 
@@ -37,7 +37,7 @@ Custom parsers are currently only supported when using `depcheck` via the Node.j
 
 ```js
 import depcheck from 'depcheck'
-import babelParser from 'depcheck-babel-parser'
+import babelParser from 'depcheck-parser-babel'
 
 const options = {
   parsers: {
