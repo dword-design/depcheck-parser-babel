@@ -37,11 +37,11 @@ Custom parsers are currently only supported when using `depcheck` via the Node.j
 
 ```js
 import depcheck from 'depcheck'
-import babelParser from 'depcheck-parser-babel'
+import parserBabel from 'depcheck-parser-babel'
 
 const options = {
   parsers: {
-    '*.js': babelParser,
+    '*.js': parserBabel,
   },
 }
 
