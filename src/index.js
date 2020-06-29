@@ -1,5 +1,5 @@
-import { parseSync } from '@babel/core'
-import { readFileSync } from 'fs-extra'
+import * as babel from '@babel/core'
+import { readFile } from 'fs-extra'
 
-export default filename =>
-  parseSync(readFileSync(filename, 'utf8'), { filename })
+export default async filename =>
+  babel.parse(await readFile(filename, 'utf8'), { filename })
