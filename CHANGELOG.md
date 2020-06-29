@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.0...v1.2.1) (2020-06-29)
+
+
+### Bug Fixes
+
+* doc ([315edb3](https://github.com/dword-design/depcheck-parser-babel/commit/315edb33d6d0fb39a86e91c1a5c945f5c04164e7))
+* make function async ([cab8dac](https://github.com/dword-design/depcheck-parser-babel/commit/cab8dac188671a3aa6d908e0edc3d31bce4ea366))
+
 # [1.2.0](https://github.com/dword-design/depcheck-parser-babel/compare/v1.1.0...v1.2.0) (2020-06-20)
 
 
