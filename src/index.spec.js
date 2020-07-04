@@ -1,26 +1,26 @@
-import withLocalTmpDir from 'with-local-tmp-dir'
-import outputFiles from 'output-files'
 import { endent } from '@dword-design/functions'
 import execa from 'execa'
 import getPackageName from 'get-package-name'
+import outputFiles from 'output-files'
+import withLocalTmpDir from 'with-local-tmp-dir'
 
 export default {
   valid: () =>
     withLocalTmpDir(async () => {
       await outputFiles({
         '.babelrc.json': JSON.stringify({
-          presets: [
-            [
-              getPackageName(require.resolve('@babel/preset-env')),
-              { targets: { node: 10 } },
-            ],
-          ],
           plugins: [
             [
               getPackageName(
                 require.resolve('@babel/plugin-proposal-pipeline-operator')
               ),
               { proposal: 'fsharp' },
+            ],
+          ],
+          presets: [
+            [
+              getPackageName(require.resolve('@babel/preset-env')),
+              { targets: { node: 10 } },
             ],
           ],
         }),
