@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.3...v1.2.4) (2020-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v5 ([a43c145](https://github.com/dword-design/depcheck-parser-babel/commit/a43c14568e6b92c9f72021cb97ae06288113eef9))
+
 ## [1.2.3](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.2...v1.2.3) (2020-08-26)
 
 
