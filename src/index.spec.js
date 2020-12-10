@@ -1,6 +1,6 @@
 import { endent } from '@dword-design/functions'
+import packageName from 'depcheck-package-name'
 import execa from 'execa'
-import getPackageName from 'get-package-name'
 import outputFiles from 'output-files'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
@@ -11,17 +11,12 @@ export default {
         '.babelrc.json': JSON.stringify({
           plugins: [
             [
-              getPackageName(
-                require.resolve('@babel/plugin-proposal-pipeline-operator')
-              ),
+              packageName`@babel/plugin-proposal-pipeline-operator`,
               { proposal: 'fsharp' },
             ],
           ],
           presets: [
-            [
-              getPackageName(require.resolve('@babel/preset-env')),
-              { targets: { node: 10 } },
-            ],
+            [packageName`@babel/preset-env`, { targets: { node: 10 } }],
           ],
         }),
         'depcheck.config.js': endent`
