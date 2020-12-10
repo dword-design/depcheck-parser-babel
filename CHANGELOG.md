@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.5...v1.2.6) (2020-12-10)
+
+
+### Bug Fixes
+
+* replace get-package-name with depcheck-package-name ([4d7c1e5](https://github.com/dword-design/depcheck-parser-babel/commit/4d7c1e5884e9bae5b5a300fb87a46980d863f256))
+
 ## [1.2.5](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.4...v1.2.5) (2020-12-10)
 
 
