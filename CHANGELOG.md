@@ -1,3 +1,11 @@
+## [1.2.5](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.4...v1.2.5) (2020-12-10)
+
+
+### Bug Fixes
+
+* merge master ([3c7731a](https://github.com/dword-design/depcheck-parser-babel/commit/3c7731ab438581b07864f25ca166506f8edccc35))
+* upgrades ([2b1c57f](https://github.com/dword-design/depcheck-parser-babel/commit/2b1c57f952a9f57fdc5febfec875325847cb1119))
+
 ## [1.2.4](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.3...v1.2.4) (2020-12-10)
 
 
