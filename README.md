@@ -56,8 +56,8 @@ Start by creating a `.babelrc.json` file with your babel config, if needed.
 Custom parsers are currently only supported when using `depcheck` via the Node.js API. Simply add the parser to your parser config and run depcheck:
 
 ```js
-import depcheck from 'depcheck'
-import parserBabel from 'depcheck-parser-babel'
+const depcheck = require('depcheck')
+const parserBabel = require('depcheck-parser-babel')
 
 const options = {
   parsers: {
@@ -65,7 +65,7 @@ const options = {
   },
 }
 
-depcheck('/path/to/your/project', options, (unused) => {
+depcheck(process.cwd(), options, unused => {
   console.log(unused.dependencies); // an array containing the unused dependencies
   console.log(unused.devDependencies); // an array containing the unused devDependencies
   console.log(unused.missing); // a lookup containing the dependencies missing in `package.json` and where they are used
