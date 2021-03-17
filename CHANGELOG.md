@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.9...v1.2.10) (2021-03-17)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#18](https://github.com/dword-design/depcheck-parser-babel/issues/18)) ([959814e](https://github.com/dword-design/depcheck-parser-babel/commit/959814e614a0d5732bc0afa6eac1a0c288531402))
+
 ## [1.2.9](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.8...v1.2.9) (2021-03-09)
 
 
