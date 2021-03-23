@@ -27,7 +27,7 @@
     "@babel/plugin-proposal-pipeline-operator": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "@dword-design/base": "^7.0.0",
-    "@dword-design/functions": "^2.2.4",
+    "@dword-design/functions": "^3.0.0",
     "depcheck": "dword-design/depcheck#fork",
     "depcheck-package-name": "^1.0.0",
     "execa": "^5.0.0",
