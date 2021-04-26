@@ -1050,20 +1050,20 @@
     "@babel/plugin-proposal-pipeline-operator" "^7.5.0"
     "@babel/preset-env" "^7.6.3"
     "@dword-design/functions" "^3.0.0"
-    "@vue/babel-preset-jsx" "github:dword-design/jsx#fork-babel-preset-jsx"
+    "@vue/babel-preset-jsx" dword-design/jsx#fork-babel-preset-jsx
     babel-plugin-add-module-exports "^1.0.2"
     babel-plugin-macros "^3.0.1"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-imports "^2.0.0"
-    babel-plugin-wildcard "github:dword-design/babel-plugin-wildcard#fork"
+    babel-plugin-wildcard dword-design/babel-plugin-wildcard#fork
     depcheck-package-name "^1.0.0"
     find-up "^5.0.0"
     param-case "^3.0.3"
 
 "@dword-design/base-config-node@^1.6.0":
-  version "1.9.13"
-  resolved "https://registry.yarnpkg.com/@dword-design/base-config-node/-/base-config-node-1.9.13.tgz#ce6f5b821447da89466d7bea177e397161e9de3f"
-  integrity sha512-VPyaQyB7BJdtIQwzwTxX0bgqa+X7ZiPA5pWQNREzq8Uz5AWlghDmjD/xHzpRVglHppFScKcgTyWboUqGoGdx2A==
+  version "1.9.14"
+  resolved "https://registry.yarnpkg.com/@dword-design/base-config-node/-/base-config-node-1.9.14.tgz#bb22cef480f474028a8239cf728f226dd4b1accb"
+  integrity sha512-uXQcJyZYw0oH1c5ySbO8M3FaTxOq+J9bxBr/OipqOmuZaI6WH7AcOnX+Piq5424YziURD/wBmrVFrUuSNNAhJQ==
   dependencies:
     "@babel/cli" "^7.7.5"
     "@babel/core" "^7.7.5"
@@ -1079,9 +1079,9 @@
     micromatch "^4.0.2"
 
 "@dword-design/base@^7.0.0":
-  version "7.13.4"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-7.13.4.tgz#498adba2d993fcd381f35e2bdb2fc15487260ea8"
-  integrity sha512-5/l5YNeuGTILI4Qf4Sxvxj5Knp7L8WIATT5Br44fSEqzcqwKK7EYfpOgSHrczK9Ybb5jmphmZsyh0BM+XxphiA==
+  version "7.13.5"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-7.13.5.tgz#fa8f3923bc027a786ba09725ab7e7535713d4255"
+  integrity sha512-mCau/FOZQ0KSR/+JJQmrHX+k0Mz7k+oDrSroGXpkovovArSUwVFQ+vAFGAxGBxU4OUTl+kEFaanYjwYEpF+FMQ==
   dependencies:
     "@babel/core" "^7.6.4"
     "@babel/register" "^7.6.2"
@@ -1097,7 +1097,7 @@
     commitizen "^4.0.3"
     constant-case "^3.0.3"
     cz-conventional-changelog "^3.1.0"
-    depcheck "github:dword-design/depcheck#fork"
+    depcheck dword-design/depcheck#fork
     depcheck-detector-execa "^1.2.1"
     depcheck-detector-package-name "^1.0.0"
     depcheck-package-name "^1.0.0"
@@ -1106,7 +1106,7 @@
     execa "^5.0.0"
     expect "^26.0.0"
     expect-mocha-image-snapshot "^1.0.0"
-    expect-mocha-snapshot "github:dword-design/expect-mocha-snapshot#fork"
+    expect-mocha-snapshot dword-design/expect-mocha-snapshot#fork
     find-up "^5.0.0"
     fs-extra "^9.0.0"
     get-projectz-readme-section-regex "^2.0.0"
@@ -1188,7 +1188,7 @@
   integrity sha512-o2O4YiLMdiliSkY4P8gtKOQbRzq5XBJ44po8K3gysClkSnEkwVnfRMgzPy14Jr1YywA2WKIhvbnPQIbrpKwGsg==
   dependencies:
     delay "^5.0.0"
-    endent "github:dword-design/endent#fork"
+    endent dword-design/endent#fork
     lodash "^4.17.15"
     tinycolor2 "^1.4.1"
 
@@ -1732,7 +1732,6 @@
 
 "@vue/babel-preset-jsx@github:dword-design/jsx#fork-babel-preset-jsx":
   version "1.1.2"
-  uid a73cb9961541a60a66b1b99a69a32e00bc66d336
   resolved "https://codeload.github.com/dword-design/jsx/tar.gz/a73cb9961541a60a66b1b99a69a32e00bc66d336"
   dependencies:
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
@@ -1751,7 +1750,6 @@
 
 "@vue/babel-sugar-inject-h@dword-design/jsx#fork-babel-sugar-inject-h":
   version "1.1.2"
-  uid cc36a2200c059120f37944615fb2ec0e22f8f3cc
   resolved "https://codeload.github.com/dword-design/jsx/tar.gz/cc36a2200c059120f37944615fb2ec0e22f8f3cc"
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
@@ -2174,7 +2172,6 @@ babel-plugin-transform-imports@^2.0.0:
 
 "babel-plugin-wildcard@github:dword-design/babel-plugin-wildcard#fork":
   version "6.0.0"
-  uid "691d11923ee2dcf63e86f205b0a2c998883e3a3c"
   resolved "https://codeload.github.com/dword-design/babel-plugin-wildcard/tar.gz/691d11923ee2dcf63e86f205b0a2c998883e3a3c"
   dependencies:
     rimraf "^2.6.2"
@@ -2968,14 +2965,8 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
-dedent@0.7.0:
+dedent@0.7.0, dedent@dword-design/dedent#fork:
   version "0.7.0"
-  resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
-  integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
-
-dedent@dword-design/dedent#fork:
-  version "0.7.0"
-  uid c8d46e5017d60504657c2d01b59082c0329a12a7
   resolved "https://codeload.github.com/dword-design/dedent/tar.gz/c8d46e5017d60504657c2d01b59082c0329a12a7"
   dependencies:
     babel-plugin-add-module-exports "^1.0.2"
@@ -3073,9 +3064,9 @@ delete-empty@^3.0.0:
     rimraf "^2.6.2"
 
 depcheck-detector-execa@^1.2.1:
-  version "1.2.13"
-  resolved "https://registry.yarnpkg.com/depcheck-detector-execa/-/depcheck-detector-execa-1.2.13.tgz#b6140425459f6f421bcd08471c5cce4a5ac802e8"
-  integrity sha512-cQWnc2lDNUI1GJMzinbLKZymORE8dYhMJ2bvwlkyCKTR8Brjgz6f/mgRZ4HnufmVTUrQhwRV2rm+D2YgHla52w==
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/depcheck-detector-execa/-/depcheck-detector-execa-1.2.14.tgz#d29fa86864106895c3695f51f90f7373b3a6cc13"
+  integrity sha512-lDg0G7O+7rm8c8P7aKG3x7OpJmOXz1ZbmbG9fiYR/v1L4K3iOe5orZBWVq212zHrF0H5CybVK8GJMIqJ9djTvg==
   dependencies:
     "@dword-design/functions" "^3.0.0"
     resolve-from "^5.0.0"
@@ -3269,7 +3260,6 @@ end-of-stream@^1.1.0:
 
 "endent@github:dword-design/endent#fork":
   version "1.4.0"
-  uid be5433db67eaec07c6c9d00ba3bed2ed946dc664
   resolved "https://codeload.github.com/dword-design/endent/tar.gz/be5433db67eaec07c6c9d00ba3bed2ed946dc664"
   dependencies:
     dedent dword-design/dedent#fork
@@ -3704,7 +3694,6 @@ expect-mocha-image-snapshot@^1.0.0:
 
 "expect-mocha-snapshot@github:dword-design/expect-mocha-snapshot#fork":
   version "2.0.1"
-  uid f5d168a871ef9073f1b56046dbf875aca6eff1db
   resolved "https://codeload.github.com/dword-design/expect-mocha-snapshot/tar.gz/f5d168a871ef9073f1b56046dbf875aca6eff1db"
   dependencies:
     expect "^1.20.2"
