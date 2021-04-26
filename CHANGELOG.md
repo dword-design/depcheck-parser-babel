@@ -1,3 +1,10 @@
+## [1.2.15](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.14...v1.2.15) (2021-04-26)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v3 ([#30](https://github.com/dword-design/depcheck-parser-babel/issues/30)) ([aa66297](https://github.com/dword-design/depcheck-parser-babel/commit/aa66297bf6d83f01911e1fad094251e9130e7e89))
+
 ## [1.2.14](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.13...v1.2.14) (2021-04-12)
 
 
