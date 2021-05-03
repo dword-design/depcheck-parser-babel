@@ -1,3 +1,18 @@
+# [2.0.0](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.15...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#33](https://github.com/dword-design/depcheck-parser-babel/issues/33)) ([72f48a9](https://github.com/dword-design/depcheck-parser-babel/commit/72f48a968e89d78f0549913648181488177fa960))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+
 ## [1.2.15](https://github.com/dword-design/depcheck-parser-babel/compare/v1.2.14...v1.2.15) (2021-04-26)
 
 
