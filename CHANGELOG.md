@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/dword-design/depcheck-parser-babel/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v10 ([#37](https://github.com/dword-design/depcheck-parser-babel/issues/37)) ([2fd28ea](https://github.com/dword-design/depcheck-parser-babel/commit/2fd28eabb074a4b83ec165da4c09f2626f48165c))
+
 ## [2.0.1](https://github.com/dword-design/depcheck-parser-babel/compare/v2.0.0...v2.0.1) (2021-05-04)
 
 
