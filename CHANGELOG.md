@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/depcheck-parser-babel/compare/v2.0.2...v2.0.3) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency depcheck-package-name to v2 ([#35](https://github.com/dword-design/depcheck-parser-babel/issues/35)) ([eb83099](https://github.com/dword-design/depcheck-parser-babel/commit/eb8309983f58a537a7fc87df4c85fea8e3f7f155))
+
 ## [2.0.2](https://github.com/dword-design/depcheck-parser-babel/compare/v2.0.1...v2.0.2) (2021-05-04)
 
 
