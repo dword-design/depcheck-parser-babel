@@ -77,7 +77,7 @@ const parserBabel = require('depcheck-parser-babel')
 
 const options = {
   parsers: {
-    '*.js': parserBabel,
+    '**/*.js': parserBabel,
   },
 }
 
