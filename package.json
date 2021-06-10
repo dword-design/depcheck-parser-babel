@@ -5,7 +5,7 @@
   "repository": "dword-design/depcheck-parser-babel",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
-  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -28,9 +28,8 @@
     "@babel/preset-env": "^7.7.7",
     "@dword-design/base": "^8.0.0",
     "@dword-design/functions": "^4.0.0",
-    "depcheck": "dword-design/depcheck#fork",
+    "depcheck": "^1.4.1",
     "depcheck-package-name": "^2.0.0",
-    "execa": "^5.0.0",
     "output-files": "^2.0.0",
     "with-local-tmp-dir": "^4.0.0"
   },
