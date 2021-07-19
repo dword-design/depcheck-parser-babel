@@ -1156,9 +1156,9 @@
     std-env "^2.3.0"
 
 "@dword-design/base@^8.0.0":
-  version "8.5.3"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-8.5.3.tgz#cc7cccef47a989fa28f1f17cb732ed32274fd486"
-  integrity sha512-/fx4NPhCKq92YJaUA/Ge/DFrXUHCH+EdxwkEfEieKnJZHCBgz1hlQYI6Dlw9XS1MxRUuDak3RccWlQgCGfhCjQ==
+  version "8.5.4"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-8.5.4.tgz#43da1979e006d33ce0d322964db9174f03d977c6"
+  integrity sha512-4wcqx1cN8qS8pdTQAWyXe5fZwRLvRphhPcjUPcJq2BKJ71iA+cAY49ONHaT4WvZXjlAOgNBL6bB0rDzCgiSryg==
   dependencies:
     "@babel/core" "^7.6.4"
     "@babel/register" "^7.6.2"
@@ -6492,9 +6492,9 @@ magic-string@^0.25.7:
     sourcemap-codec "^1.4.4"
 
 make-cli@^2.0.0:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/make-cli/-/make-cli-2.0.10.tgz#143f7bd5ae7e94e570d7b615eddb74c94b23819a"
-  integrity sha512-3j9sXDwwcG4K3dNIVDI672Nsdry+uii1yU5lMSItl8qR4SMDzwOxZqB5y27yL7dL2TBBxHUD4FphpVJu8L4YUA==
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/make-cli/-/make-cli-2.0.11.tgz#82dd1e634c4e97d2d7f72bec7fab6709fb6a2956"
+  integrity sha512-kf2QjyUwdvxD79harm393qXh1sVxF5T6EI+njTRHzUP+cVD+yJTjExrCt9Jr8s0ZzXqJwEHA26kcjrR4QWKMzw==
   dependencies:
     "@dword-design/functions" "^4.0.0"
     commander "^8.0.0"
