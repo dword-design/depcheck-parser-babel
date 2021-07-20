@@ -1,3 +1,10 @@
+## [2.0.10](https://github.com/dword-design/depcheck-parser-babel/compare/v2.0.9...v2.0.10) (2021-07-20)
+
+
+### Bug Fixes
+
+* update config files ([bf4416c](https://github.com/dword-design/depcheck-parser-babel/commit/bf4416cae13d1054b72b85facbe025d9596d0102))
+
 ## [2.0.9](https://github.com/dword-design/depcheck-parser-babel/compare/v2.0.8...v2.0.9) (2021-07-06)
 
 
