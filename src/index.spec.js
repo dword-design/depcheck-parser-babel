@@ -4,7 +4,7 @@ import packageName from 'depcheck-package-name'
 import outputFiles from 'output-files'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
-import self from '.'
+import self from './index.js'
 
 export default {
   valid: () =>
