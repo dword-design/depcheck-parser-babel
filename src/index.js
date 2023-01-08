@@ -1,5 +1,5 @@
 import * as babel from '@babel/core'
-import { readFile } from 'fs-extra'
+import fs from 'fs-extra'
 
 export default async filename =>
-  babel.parse(await readFile(filename, 'utf8'), { filename })
+  babel.parse(await fs.readFile(filename, 'utf8'), { filename })
