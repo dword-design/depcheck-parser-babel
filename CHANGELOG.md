@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/depcheck-parser-babel/compare/v2.0.12...v3.0.0) (2023-01-08)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#93](https://github.com/dword-design/depcheck-parser-babel/issues/93)) ([07e6794](https://github.com/dword-design/depcheck-parser-babel/commit/07e679456f7a6a79aa339551549b8dcea9dd9526))
+
+
+### BREAKING CHANGES
+
+* drop node 12 support, move to esm
+
 ## [2.0.12](https://github.com/dword-design/depcheck-parser-babel/compare/v2.0.11...v2.0.12) (2022-01-12)
 
 
