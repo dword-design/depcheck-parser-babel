@@ -1,6 +1,6 @@
 {
   "name": "depcheck-parser-babel",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A depcheck babel parser that uses an existing babel config instead of a fixed set of plugins.",
   "repository": "dword-design/depcheck-parser-babel",
   "funding": "https://github.com/sponsors/dword-design",
