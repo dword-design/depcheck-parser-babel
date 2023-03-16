@@ -22,10 +22,10 @@ export default {
           ],
         }),
         'index.js': endent`
-        import foo from 'foo'
+          import foo from 'foo'
 
-        export default foo |> x => x * 2
-      `,
+          export default foo |> x => x * 2
+        `,
       })
 
       const result = await depcheck('.', {
