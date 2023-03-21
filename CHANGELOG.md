@@ -1,3 +1,10 @@
+## [3.0.10](https://github.com/dword-design/depcheck-parser-babel/compare/v3.0.9...v3.0.10) (2023-03-21)
+
+
+### Bug Fixes
+
+* update dependency output-files to v2.0.19 ([8f5df74](https://github.com/dword-design/depcheck-parser-babel/commit/8f5df74b9a513e38810a6ae85033ddc865f00304))
+
 ## [3.0.9](https://github.com/dword-design/depcheck-parser-babel/compare/v3.0.8...v3.0.9) (2023-03-19)
 
 
