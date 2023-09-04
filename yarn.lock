@@ -566,9 +566,9 @@
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
 
 "@babel/plugin-proposal-pipeline-operator@^7.5.0", "@babel/plugin-proposal-pipeline-operator@^7.7.7":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-pipeline-operator/-/plugin-proposal-pipeline-operator-7.22.5.tgz#b8de7272264bec2c8cf9b22e7889bb33af54c4a4"
-  integrity sha512-nSgHJB3uP+DORxBVhQgjub0qtU/LGj/mBDz2kQEGy1EUDy3f92VWDeB3J3/41ZjVLWmkNWOd6yjdNb4a5wDfZQ==
+  version "7.22.15"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-pipeline-operator/-/plugin-proposal-pipeline-operator-7.22.15.tgz#02711e858ea4996dd50bbdd8a278b347f6344276"
+  integrity sha512-tk81rXNA4T/AQc4zFhIIJp9OSmY8rmy46G7LXiPm4+/X8A0A0f9ri6yjEIj3fYqZQYrQnX9uuWXppPGsEesYtg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.22.5"
     "@babel/plugin-syntax-pipeline-operator" "^7.22.5"
