@@ -1,3 +1,10 @@
+## [3.0.44](https://github.com/dword-design/depcheck-parser-babel/compare/v3.0.43...v3.0.44) (2023-10-17)
+
+
+### Bug Fixes
+
+* update dependency @babel/preset-env to v7.23.2 ([2e1efd0](https://github.com/dword-design/depcheck-parser-babel/commit/2e1efd072446af90d7dd7b6ef40990b4ffcf018f))
+
 ## [3.0.43](https://github.com/dword-design/depcheck-parser-babel/compare/v3.0.42...v3.0.43) (2023-10-17)
 
 
