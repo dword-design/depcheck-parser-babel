@@ -1,3 +1,10 @@
+## [3.0.47](https://github.com/dword-design/depcheck-parser-babel/compare/v3.0.46...v3.0.47) (2023-11-09)
+
+
+### Bug Fixes
+
+* update dependency @babel/plugin-proposal-pipeline-operator to v7.23.3 ([aa2c458](https://github.com/dword-design/depcheck-parser-babel/commit/aa2c458f554f1289927f692aca6f0ddc3c59c63f))
+
 ## [3.0.46](https://github.com/dword-design/depcheck-parser-babel/compare/v3.0.45...v3.0.46) (2023-11-09)
 
 
